@@ -1,0 +1,136 @@
+body{
+  background: #A1FFCE;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FAFFD1, #A1FFCE);
+  text-align: center;
+  margin: 0px;
+  font-family: 'Merriweather', serif;
+}
+
+
+h1 {
+  color: red;
+  font-size: 100px;
+}
+
+h2 {
+  padding-bottom: 3%;
+  color: #393E46;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  padding-bottom: 3%;
+  font-size: 10rem;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.heading {
+  color: #393E46;
+  font-family: 'Sacramento', cursive;
+}
+
+.sub_heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+.bord{
+  border: 5px solid red;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+  .content{
+    margin: 0 5% 4%;
+    font-size: 0.9em;
+  }
+
+  .dots {
+      margin: 50px auto;
+      border:none;
+      border-top: 6px dotted;
+      color:black;
+      background-color: #fff;
+      width:7%;
+  }
+
+  .copyright{
+    font-size: 0.6rem;
+    margin: 2% 0 1% 0;
+  }
+
+  .footer-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    color: #393E46;
+    margin: 10px 20px;
+    width: 50%;
+    text-decoration: none;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .content{
+    margin: 0 18% 4%;
+    font-size: 1em;
+  }
+
+  .dots {
+      margin: 75px auto;
+      border:none;
+      border-top: 6px dotted;
+      color:black;
+      background-color: #fff;
+      width:7%;
+  }
+
+  .copyright{
+    font-size: 0.7rem;
+    margin: 2% 0 1% 0;
+  }
+
+  .footer-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    color: #393E46;
+    margin: 10px 20px;
+    width: 50%;
+    text-decoration: none;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .content{
+    margin: 0 25% 4%;
+    font-size: 1.1em;
+  }
+
+  .dots {
+      margin: 100px auto;
+      border:none;
+      border-top: 6px dotted;
+      color:black;
+      background-color: #fff;
+      width:7%;
+  }
+
+  .copyright{
+    font-size: 0.8rem;
+    margin: 2% 0 1% 0;
+  }
+
+  .footer-link {
+    font-family: 'Montserrat', sans-serif;
+    color: #393E46;
+    font-size: 1rem;
+    margin: 10px 20px;
+    width: 50%;
+    text-decoration: none;
+  }
+}
